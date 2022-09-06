@@ -1,0 +1,13 @@
+prisma/dev.db
+/prisma/data.db-journal
+
+node_modules
+
+package-lock.json
+
+.env
+/build
+/public/build
+/.cache
+
+/app/styles/tailwind.css

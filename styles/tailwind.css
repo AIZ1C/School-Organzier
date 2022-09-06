@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+@layer components {
+  .custom-class {
+    @apply ...;
+  }
+} 
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  @apply text-3xl
+}
+h2 {
+  @apply text-xl
+}
+h3 {
+  @apply text-lg
+}
+h4 {
+  @apply text-base
+}
